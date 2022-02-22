@@ -38,7 +38,24 @@ Appointed: Vadim Ksendzov
 4. Запушить структуру багрепорта на внешний репозиторий - [Bug_report] git add Bug_report.txt - git commit -am "add_bug" - git push
 5. Вмержить ветку Bag Reports в Main - переход в git checkout main - git merge Bug_Report
 6. Запушить main на внешний репозиторий. [mail] git add . - git commit -am "add_bug_report" - git push
-7. В ветке CheckLists набросать структуру чек листа.
+7. В ветке CheckLists набросать структуру чек листа - переход git checkout CheckLists - touch checklists.txt - vim checklists.txt - 
+
+Checklists
+
+Build version: Google Chrome Версия 98.0.4758.102 (Официальная сборка), (arm64)
+
+Environment: macOS Big Sur версия 11.2.3.
+
+Test date: 22.02.2022
+
+Tester: Zarubo Andrei
+
+test type: smoke
+
+checking: Регистрация по email
+
+Result: не отправляет письмо на авторизацию
+
 8. Запушить структуру на внешний репозиторий
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 10. Синхронизировать Внешнюю и Локальную ветки Main
