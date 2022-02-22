@@ -1,3 +1,5 @@
+Git hab Домашние задания - https://github.com/AndrioZa/DZ_Grouo_27.git
+
 Как отправить ДЗ на проверку.
  1. Создайте текстоовый файл как в первом ДЗ по Terminal.
  2. Сценарий перенесите в этот файл.
@@ -50,7 +52,7 @@ JSON
 - Commit new file.
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. Commit new file
  20. Синхронизировать внешний и локальный репозиторий JSON. В терминале прописать git pull
-
+ Git hab созданный репозиторий - https://github.com/AndrioZa/JSON..git
 
 XML
  21. Создать внешний репозиторий c названием XML. create new repositories 
@@ -106,6 +108,7 @@ XML
 
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. Git add . - git commit -m "Update bug_report.xml"
  38. Синхронизировать внешний и локальный репозиторий XML - git push
+Git hab созданный репозиторий - https://github.com/AndrioZa/XML.git
 
 TXT
  1. Создать внешний репозиторий c названием TXT. mkdir TXT - cd TXT
@@ -154,5 +157,5 @@ Actual Result:On hover, the color of the button does not change to black
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. Git add . - git commit -m "add_bug_report,new,preferences,skills" 
  18. Синхронизировать внешний и локальный репозиторий TXT - git push
-
+Git hab созданный репозиторий - https://github.com/AndrioZa/TXT.git
 
