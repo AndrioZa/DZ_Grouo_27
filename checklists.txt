@@ -1,0 +1,15 @@
+Checklists
+
+Build version: Google Chrome Версия 98.0.4758.102 (Официальная сборка), (arm64)
+
+Environment: macOS Big Sur версия 11.2.3.
+
+Test date: 22.02.2022
+
+Tester: Zarubo Andrei
+
+test type: smoke
+
+checking: Регистрация по email
+
+Result: не отправляет письмо на авторизацию
