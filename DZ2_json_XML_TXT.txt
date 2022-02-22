@@ -57,7 +57,7 @@ JSON
 XML
  21. Создать внешний репозиторий c названием XML. create new repositories 
  22. Клонировать репозиторий XML на локальный компьютер. Git clone https://github.com/AndrioZa/XML.git
- 23. Внутри локального XML создать файл “new.xml”. Touch new.xml
+ 23. Внутри локального XML создать файл - после клонированого репозиторий зашел в папку cd XML - “new.xml”. Touch new.xml
  24. Добавить файл под гит. Git add new.xml
  25. Закоммитить файл. Git commit -m "add_new.xml1"
  26. Отправить файл на внешний GitHub репозиторий. Git puch
@@ -71,8 +71,8 @@ XML
  28. Отправить изменения на внешний репозиторий. Git add new.xml - git commit -m "add_new.xml1" - git push
  29. Создать файл preferences.xml - touch preferences.xml
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. Vmi preferences.xml
-
-<Favorite_movie>all marvel movies</Favorite_movie>
+<root>
+	<Favorite_movie>all marvel movies</Favorite_movie>
         <favorite_series>Squid game</favorite_series>
         <favorite_food>Squid game</favorite_food>
         <favorite_time_of_yeat>summer</favorite_time_of_yeat>
@@ -80,6 +80,7 @@ XML
         <favorite_food>Squid game</favorite_food>
         <favorite_time_of_yeat>summer</favorite_time_of_yeat>
         <country_you_would_like_to_visit>America</country_you_would_like_to_visit>
+</root>
 
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML. Touch skills.xml - vmi preferences.xml
 
@@ -91,7 +92,7 @@ XML
         <skoills>Responsibility</skoills>
 </root>
 
- 32. Сделать коммит в одну строку. Git add . - Git commit -m "add_skills_bug_report"
+ 32. Сделать коммит в одну строку. Git add . && Git commit -m "add_skills_bug_report"
  33. Отправить сразу 2 файла на внешний репозиторий. Git push
  34. На веб интерфейсе создать файл bug_report.xml. Create new file
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе. Git commit -m "Update bug_report.xml" - git push
@@ -106,7 +107,7 @@ XML
 
 В терминале набрал git pull
 
- 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. Git add . - git commit -m "Update bug_report.xml"
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. Зашел на веб интерфейс, Create new file, создал bug_report.xml, Commit changes - далее в терминале синхронизировал с локальным репозиторием git pull.
  38. Синхронизировать внешний и локальный репозиторий XML - git push
 Git hab созданный репозиторий - https://github.com/AndrioZa/XML.git
 
@@ -142,7 +143,7 @@ skills:learnability
 skills:communication skills
 skoills:Responsibility
 
- 12. Сделать коммит в одну строку. Git add preferences.txt skills.txt - git commit -m "add_preferences,skills" 
+ 12. Сделать коммит в одну строку. Git add preferences.txt skills.txt && git commit -m "add_preferences,skills" 
  13. Отправить сразу 2 файла на внешний репозиторий. Git push
  14. На веб интерфейсе создать файл bug_report.txt - Create new file bug_report.txt
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе - git pull 
@@ -155,7 +156,7 @@ Actual Result:On hover, the color of the button does not change to black
 
 При изменении на веб интерфейсе, в терминале произвел git pull
 
- 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. Git add . - git commit -m "add_bug_report,new,preferences,skills" 
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. На веб сервисе create new file bug_report, после сохранил commit changes
  18. Синхронизировать внешний и локальный репозиторий TXT - git push
 Git hab созданный репозиторий - https://github.com/AndrioZa/TXT.git
 
