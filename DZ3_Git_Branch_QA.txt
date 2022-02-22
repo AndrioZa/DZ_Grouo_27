@@ -1,0 +1,46 @@
+1. На локальном репозитории сделать ветки для: git branch Postman && git branch Jmeter && git branch CheckLists && git branch Bag_Reports && git branch SQL && git branch Charles && git branch Mobile_testing
+- Postman
+- Jmeter
+- CheckLists
+- Bag Reports
+- SQL
+- Charles
+- Mobile testing
+
+2. Запушить все ветки на внешний репозиторий - git push origin --all
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта - Переход на ветку git checkout Bug_report - touch Bug_report.txt - vmi Bug_report.txt - INSERT - 
+
+Bug_report
+
+description:
+steps - Главная строница, наведение курсором в верхнем правом углу "мой профиль" кнопка "регистрация", поле ввода email
+Actual result - при вводе в поле email "asdf@mail.ru", не отправляется запрос на подтверждение
+Expected result - при вводе в поле email "asdf@mail.ru", должно прийти письмо на подтверждение акаунта
+
+project: Aliexpress https://best.aliexpress.ru
+
+component: форма регистрации
+
+Build version: macOS Big Sur версия 11.2.3. Google Chrome Версия 98.0.4758.102 (Официальная сборка), (arm64)
+
+Severity: Blocker
+
+Priority: High
+
+status: open
+
+author: Zarubo Andrei
+
+Appointed: Vadim Ksendzov
+
+:wq
+
+4. Запушить структуру багрепорта на внешний репозиторий - 
+5. Вмержить ветку Bag Reports в Main
+6. Запушить main на внешний репозиторий.
+7. В ветке CheckLists набросать структуру чек листа.
+8. Запушить структуру на внешний репозиторий
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+10. Синхронизировать Внешнюю и Локальную ветки Main
+
+Профиль 
