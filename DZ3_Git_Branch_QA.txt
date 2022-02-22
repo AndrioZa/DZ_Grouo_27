@@ -1,0 +1,61 @@
+Bug_Reports
+1. На локальном репозитории сделать ветки для: 
+- Postman
+- Jmeter
+- CheckLists
+- Bag Reports 
+- SQL
+- Charles
+- Mobile testing
+
+2. Запушить все ветки на внешний репозиторий - git push origin --all
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта - Переход на ветку git checkout Bug_report - touch Bug_report.txt - vmi Bug_report.txt - INSERT - 
+Bug_report!
+
+description:
+steps - Главная строница, наведение курсором в верхнем правом углу "мой профиль" кнопка "регистрация", поле ввода email
+Actual result - при вводе в поле email "asdf@mail.ru", не отправляется запрос на подтверждение
+Expected result - при вводе в поле email "asdf@mail.ru", должно прийти письмо на подтверждение акаунта
+
+project: Aliexpress https://best.aliexpress.ru
+
+component: форма регистрации
+
+Build version: macOS Big Sur версия 11.2.3. Google Chrome Версия 98.0.4758.102 (Официальная сборка), (arm64)
+
+Severity: Blocker
+
+Priority: High
+
+status: open
+
+author: Zarubo Andrei
+
+Appointed: Vadim Ksendzov
+
+:wq
+
+4. Запушить структуру багрепорта на внешний репозиторий - [Bug_report] git add Bug_report.txt - git commit -am "add_bug" - git push
+5. Вмержить ветку Bag Reports в Main - переход в git checkout main - git merge Bug_Report
+6. Запушить main на внешний репозиторий. [mail] git add . - git commit -am "add_bug_report" - git push
+7. В ветке CheckLists набросать структуру чек листа - переход git checkout CheckLists - touch checklists.txt - vim checklists.txt - 
+
+Checklists
+
+Build version: Google Chrome Версия 98.0.4758.102 (Официальная сборка), (arm64)
+
+Environment: macOS Big Sur версия 11.2.3.
+
+Test date: 22.02.2022
+
+Tester: Zarubo Andrei
+
+test type: smoke
+
+checking: Регистрация по email
+
+Result: не отправляет письмо на авторизацию
+
+8. Запушить структуру на внешний репозиторий - git add checklists.txt && git commit -am "add_checklists" && git push
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+10. Синхронизировать Внешнюю и Локальную ветки Main
