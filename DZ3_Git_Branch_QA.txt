@@ -9,7 +9,7 @@ Bug_Reports
 - Mobile testing
 
 2. Запушить все ветки на внешний репозиторий - git push origin --all
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта - Переход на ветку git checkout Bug_report - touch Bug_report.txt - vmi Bug_report.txt - INSERT - 
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта - Переход на ветку git checkout Bug_report - touch Bug_report.txt - vmi Bug_report.txt
 Bug_report!
 
 description:
@@ -56,6 +56,6 @@ checking: Регистрация по email
 
 Result: не отправляет письмо на авторизацию
 
-8. Запушить структуру на внешний репозиторий
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-10. Синхронизировать Внешнюю и Локальную ветки Main
+8. Запушить структуру на внешний репозиторий - git add checklists.txt && git commit -am "add_checklists" && git push -u origin CheckLists
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main - перейти git checkout main && git merge CheckLists && git add . && git commit -am "add_checklist"
+10. Синхронизировать Внешнюю и Локальную ветки Main - [main] git push
