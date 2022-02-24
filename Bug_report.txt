@@ -1,0 +1,23 @@
+Bug_report
+
+description:
+steps - Главная строница, наведение курсором в верхнем правом углу "мой профиль" кнопка "регистрация", поле ввода email
+Actual result - при вводе в поле email "asdf@mail.ru", не отправляется запрос на подтверждение
+Expected result - при вводе в поле email "asdf@mail.ru", должно прийти письмо на подтверждение акаунта
+
+project: Aliexpress https://best.aliexpress.ru
+
+component: форма регистрации
+
+Build version: macOS Big Sur версия 11.2.3. Google Chrome Версия 98.0.4758.102 (Официальная сборка), (arm64)
+
+Severity: Blocker
+
+Priority: High
+
+status: open
+
+author: Zarubo Andrei
+
+Appointed: Vadim Ksendzov
+
