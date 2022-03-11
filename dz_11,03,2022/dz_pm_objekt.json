@@ -1,0 +1,33 @@
+{
+	"id": "0768c00b-aa64-46f9-b67f-c7b6bc1be6ba",
+	"name": "homework_27",
+	"values": [
+		{
+			"key": "url_27",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "name_1",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "age_1",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "salary_1",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2022-03-11T16:04:07.214Z",
+	"_postman_exported_using": "Postman/9.14.6"
+}
